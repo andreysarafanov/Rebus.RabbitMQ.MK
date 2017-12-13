@@ -64,9 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Rebus.RabbitMq\Rebus.RabbitMq.csproj">
+    <ProjectReference Include="..\Rebus.RabbitMq\Rebus.RabbitMq.MK.csproj">
       <Project>{F4DC44C0-8822-4602-A840-A061E12650B9}</Project>
-      <Name>Rebus.RabbitMq</Name>
+      <Name>Rebus.RabbitMq.MK</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

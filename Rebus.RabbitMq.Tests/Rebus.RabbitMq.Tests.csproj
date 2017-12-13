@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rebus.RabbitMq.Tests</RootNamespace>
     <AssemblyName>Rebus.RabbitMq.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -46,8 +46,9 @@
     <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="RabbitMQ.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
-      <HintPath>..\packages\RabbitMQ.Client.4.1.1\lib\net451\RabbitMQ.Client.dll</HintPath>
+    <Reference Include="RabbitMQ.Client.MK, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RabbitMQ.Client.MK.4.1.0\lib\net45\RabbitMQ.Client.MK.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Rebus, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Rebus.3.0.0\lib\NET45\Rebus.dll</HintPath>
@@ -77,9 +78,9 @@
     <Compile Include="TestRabbitMqReconnection.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Rebus.RabbitMq\Rebus.RabbitMq.csproj">
+    <ProjectReference Include="..\Rebus.RabbitMq\Rebus.RabbitMq.MK.csproj">
       <Project>{F4DC44C0-8822-4602-A840-A061E12650B9}</Project>
-      <Name>Rebus.RabbitMq</Name>
+      <Name>Rebus.RabbitMq.MK</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

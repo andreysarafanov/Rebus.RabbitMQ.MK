@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stuff", "stuff", "{1ABDD7C1
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.RabbitMq", "Rebus.RabbitMq\Rebus.RabbitMq.csproj", "{F4DC44C0-8822-4602-A840-A061E12650B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.RabbitMq.MK", "Rebus.RabbitMq\Rebus.RabbitMq.MK.csproj", "{F4DC44C0-8822-4602-A840-A061E12650B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.RabbitMq.Tests", "Rebus.RabbitMq.Tests\Rebus.RabbitMq.Tests.csproj", "{B8B9F10C-A675-49F0-92F4-FBA327C8399F}"
 EndProject
